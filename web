@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CurrentChamps Tuition Center</title>
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+    }
+
+    header {
+      background: #0056d6;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    nav {
+      background: #003f9e;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 15px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    section {
+      background: white;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      /* For animation: start invisible */
+      opacity: 0;
+    }
+
+    footer {
+      background: #0056d6;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<header data-aos="fade-down">
+  <h1>CurrentChamps Tuition Center</h1>
+  <p>Experienced Teachers • Classes 1 to 10 • Quality Learning</p>
+</header>
+
+<nav data-aos="fade-up">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#courses">Courses</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" data-aos="fade-right" data-aos-duration="1000">
+  <h2>Welcome to CurrentChamps</h2>
+  <p>
+    At CurrentChamps, we provide high-quality education for students of 
+    <strong>Classes 1 to 10</strong> with a focus on concept-based learning and strong fundamentals.
+  </p>
+</section>
+
+<section id="about" data-aos="fade-left" data-aos-duration="1000">
+  <h2>About Us</h2>
+  <p>
+    We have <strong>experienced teachers</strong> dedicated to improving student performance 
+    with personal attention, doubt-clearing sessions, and weekly tests.
+  </p>
+</section>
+
+<section id="courses" data-aos="zoom-in" data-aos-duration="1200">
+  <h2>Subjects We Teach</h2>
+  <ul>
+    <li>English</li>
+    <li>Maths</li>
+    <li>Science</li>
+    <li>SST</li>
+  </ul>
+</section>
+
+<section id="contact" data-aos="fade-up" data-aos-duration="1000">
+  <h2>Contact Us</h2>
+  <p><strong>📍 Address:</strong> (Enter your address here)</p>
+  <p><strong>📞 Phone:</strong> (Enter your phone number here)</p>
+  <br>
+
+  <p><strong>Map Location:</strong></p>
+  <iframe
+    src=""
+    width="100%"
+    height="250"
+    style="border:0;"
+    allowfullscreen
+    loading="lazy"
+    data-aos="fade-up"
+    data-aos-duration="1500"
+  ></iframe>
+  <br><br>
+
+  <a href=""
+     style="padding:12px 20px; background:green; color:white; border-radius:6px; text-decoration:none;"
+     data-aos="flip-up"
+     data-aos-duration="800">
+     Chat on WhatsApp
+  </a>
+</section>
+
+<footer data-aos="fade-down" data-aos-duration="1000">
+  <p>© 2025 CurrentChamps Tuition Center. All Rights Reserved.</p>
+</footer>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 800, // default duration of animations
+    once: true,    // whether animation should happen only once - while scrolling down
+  });
+</script>
+
+</body>
+</html>
